@@ -1,7 +1,9 @@
 {
-  "name": "pyq-hub",
+    "name": "pyq-hub",
   "version": "1.0.0",
-  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
