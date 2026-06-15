@@ -657,13 +657,13 @@ export default function App() {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(170px,1fr))", gap: 12, marginBottom: 18 }}>
             <Field label="Course / Degree" value={acCourse} onChange={setAcCourse}
-              options={["All Courses","BCA","B.Tech (CS)","B.Tech (IT)","BBA","B.Com","BSc (Math)","BSc (Physics)","MCA","MBA"]} />
+              options={["All Courses","BCA","B.Com"]} />
             <Field label="University" value={acUni} onChange={setAcUni}
-              options={["All Universities","AKTU","MGKVP","VBSPU","Delhi University","IIT Delhi","IIT Bombay"]} />
+              options={["All Universities","MGKVP","VBSPU"]} />
             <Field label="Semester" value={acSem} onChange={setAcSem}
               options={["All Semesters","Semester 1","Semester 2","Semester 3","Semester 4","Semester 5","Semester 6","Semester 7","Semester 8"]} />
             <Field label="Year" value={acYear} onChange={setAcYear}
-              options={["All Years","2024","2023","2022","2021","2020","2019"]} />
+              options={["All Years","2024","2023","2022","2021"]} />
           </div>
           <button
             onClick={doSearch}
